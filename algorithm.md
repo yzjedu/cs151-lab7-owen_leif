@@ -1,11 +1,10 @@
-# Algorithm Document
-#### PLEASE! PLEASE! PLEASE! kys
+# ALGORITHM DOC
 
-Purpose: Calculating the size of the room and adding it to the house
-Name: "room_sizing"
-Parameters: none
-Return: Most recent size of house
-Algorithm:
+* Purpose: Calculating the size of the room and adding it to the house
+* Name: "room_sizing"
+* Parameters: none
+* Return: Most recent size of house
+* Algorithm:
 1. Global import "house size"
 2. Assess the counter of the current room (1st, 3rd, etc.)
 3. While the input length of the room is not a digit:
@@ -18,10 +17,11 @@ Algorithm:
 5. Assign the output of this calculation to "room size"
 6. Add "room size" to "house size"
 
-Purpose: Calculating the various possibilities for the cost of the house
-Name: "cost_calculation"
-Parameters: none
-Return: Various possible prices for the room
+* Purpose: Calculating the various possibilities for the cost of the house
+* Name: "cost_calculation"
+* Parameters: none
+* Return: Various possible prices for the room
+* Algorithm:
 1. Global import "passthru"
 2. Global import "house size"
 2. While "passthru" is False:
@@ -37,6 +37,11 @@ Return: Various possible prices for the room
       4. otherwise, if the input is equal to n, set passthru to True
       5. otherwise, print an error message
 
+* Purpose: Executing the regular code
+* Name: "main"
+* Parameters: none
+* Return: Various possible prices for the room
+* Algorithm:
 1. Set variable "house size" equal to zero
 2. Set variable "room counter" equal to 1
 3. Set boolean "passthru" to False
